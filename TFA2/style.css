@@ -1,0 +1,41 @@
+body {
+background-color: #d8f3dc; 
+font-family: Arial, sans-serif;
+}
+
+.profile-img {
+    width: 120px;
+    margin-top: 10px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container {
+ width: 300px;
+ margin: 100px auto;
+ padding: 20px;
+ background-color: white;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+ border-radius: 10px;
+ text-align: center;
+ 
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 8px;
+}
+
+input[type="submit"] {
+padding: 8px 15px;
+background-color: #52b788;
+border-radius: 5px;
+color: white;
+border: none;
+
+}
+
+.result {
+  margin-top: 20px;
+}
