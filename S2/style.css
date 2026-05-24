@@ -1,0 +1,37 @@
+
+body{
+    font-family: Arial;
+    background-color: #ffd6e7;
+    margin: 0;
+    padding: 20px;
+}
+
+.main{
+    width: 70%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: #d63384;
+}
+
+.box{
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+h2{
+    color: #d63384;
+}
