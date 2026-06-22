@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <title>Dog Registration</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
 </head>
 <body>
 
@@ -31,7 +31,7 @@
 
 <?php
 
-include("includes/db.php");
+include("db.php");
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
