@@ -8,7 +8,7 @@
 <body>
 <h2>Dog Records</h2>
 <?php
-include("includes/db_connect.php");
+include("db.php");
 
 $sql = "SELECT * FROM Dogs";
 $result = $conn->query($sql);
