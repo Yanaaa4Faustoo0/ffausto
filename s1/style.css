@@ -1,0 +1,102 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #efefef;
+    margin: 0;
+    padding: 30px;
+}
+
+.form-container{
+    width: 900px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #999;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.section{
+    border: 1px solid #999;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.title-bar{
+    background-color: #222;
+    color: white;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-row{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.form-group{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.large{
+    flex: 2;
+}
+
+.form-group.small{
+    flex: 0.8;
+}
+
+label{
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea{
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 5px;
+    font-size: 14px;
+    background: transparent;
+}
+
+textarea{
+    border: 1px solid #999;
+    resize: none;
+}
+
+.radio-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.submit-area{
+    text-align: center;
+    margin-top: 25px;
+}
+
+button{
+    padding: 12px 40px;
+    border: none;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: #444;
+}
