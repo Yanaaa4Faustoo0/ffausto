@@ -31,7 +31,7 @@
 
 <?php
 
-include("includes/db.php");
+include("db.php");
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
